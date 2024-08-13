@@ -19,12 +19,12 @@ public int sumOfLeftLeaves(TreeNode root) {
         solve(root, false);
         return sum;
     }
-public void solve(TreeNode root, boolean isLeft) {
+public void solve(TreeNode root, boolean left) {
         if (root == null) {
             return;
         }
         if (root.left == null && root.right == null) {
-            if (isLeft) {
+            if (left) {
                 sum += root.val;
             }
             return;

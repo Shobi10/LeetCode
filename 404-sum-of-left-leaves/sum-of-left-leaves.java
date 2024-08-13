@@ -25,7 +25,7 @@ public void solve(TreeNode root, boolean left) {
         }
         if (root.left == null && root.right == null) {
             if (left) {
-                sum += root.val;
+                sum =sum+ root.val;
             }
             return;
         }

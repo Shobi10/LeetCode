@@ -18,11 +18,11 @@ class Solution {
         if (arr[0].equals("0")) {
             return "0";
         }
-        StringBuilder largestNumber = new StringBuilder();
+        StringBuilder larger = new StringBuilder();
         for (String num : arr) {
-            largestNumber.append(num);
+            larger.append(num);
         }
 
-        return largestNumber.toString();
+        return larger.toString();
     }
 }

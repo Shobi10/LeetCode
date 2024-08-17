@@ -6,6 +6,6 @@ class Solution {
                 return r.substring(0, i) + s;
             }
         }
-        return ""; // This line won't be reached since s is guaranteed to have a palindrome
+        return "";
     }
 }
